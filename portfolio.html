@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juhi Patel - Digital Portfolio</title>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f4f6ff;
+            color: #222;
+            scroll-behavior: smooth;
+        }
+        /* Navigation */
+        nav {
+            position: sticky; top: 0;
+            background: white;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 999;
+        }
+        nav ul { display: flex; justify-content: center; gap: 25px; list-style: none; font-weight: 600; }
+        nav a { color: #333; text-decoration: none; padding: 8px 14px; border-radius: 6px; }
+        nav a:hover { background: #6a5acd; color: white; }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            padding: 100px 20px;
+            text-align: center;
+            color: white;
+        }
+        .hero img {
+            width: 180px; height: 180px;
+            border-radius: 50%;
+            border: 5px solid white;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .tagline {
+            margin-top: 20px;
+            padding: 15px;
+            font-style: italic;
+            background: rgba(255,255,255,0.2);
+            border-radius: 10px;
+        }
+
+        /* Sections */
+        section { padding: 70px 50px; background: white; margin: 40px auto; width: 90%; border-radius: 15px;
+                 box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+        h2 { font-size: 36px; text-align: center; margin-bottom: 20px; color: #444; }
+        h3 { margin-top: 20px; color: #555; }
+        .card {
+            padding: 20px; background: #fafafa; border-left: 4px solid #667eea;
+            margin-bottom: 20px; border-radius: 10px;
+        }
+
+        .skill-tag {
+            display: inline-block; background: #667eea; color: white;
+            padding: 8px 14px; border-radius: 20px; margin: 5px;
+        }
+
+        .project-card {
+            padding: 20px; background: #fff; border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-left: 5px solid #764ba2;
+            margin-bottom: 25px;
+        }
+
+        .testimonial {
+            background: #fafafa; padding: 20px; border-radius: 10px;
+            border-left: 4px solid #667eea; margin-bottom: 20px;
+            font-style: italic;
+        }
+        footer {
+            background: #667eea; color: white; padding: 30px; text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#ethics">Ethics</a></li>
+            <li><a href="#future">Future</a></li>
+        </ul>
+    </nav>
+
+    <!-- Cover Page -->
+    <section id="home" class="hero">
+        
+        <a href="https://ibb.co/cKhSz1Mc"><img src="https://i.ibb.co/zWVTKrjh/Whats-App-Image-2025-05-03-at-18-43-54-4621074c.jpg" alt="Whats-App-Image-2025-05-03-at-18-43-54-4621074c" border="0"></a>
+        <h1>Juhi Patel</h1>
+        <p>Pandit Deendayal Energy University</p>
+        <p>Digital Portfolio | November 18, 2025</p>
+
+        <div class="tagline">
+            “Empowering Tomorrow Through Innovation, Communication, and Continuous Learning”
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section id="intro">
+        <h2>Introduction & Learning Philosophy</h2>
+        <div class="card">
+            <h3>My Learning Journey</h3>
+            <p>
+                My academic journey represents a blend of curiosity, communication, creativity, and continuous self-improvement.
+                Over the years, I’ve developed a strong passion for exploring interdisciplinary areas, especially where 
+                communication, technology, and problem-solving come together.
+            </p>
+        </div>
+        <div class="card">
+            <h3>My Learning Philosophy</h3>
+            <ul>
+                <li><b>Learning-by-Doing:</b> I believe in practical, application-based understanding.</li>
+                <li><b>Continuous Growth:</b> Every day is an opportunity to improve.</li>
+                <li><b>Ethical Mindset:</b> Knowledge must be used responsibly.</li>
+                <li><b>Collaboration:</b> Teamwork helps build stronger solutions.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume">
+        <h2>Resume / CV</h2>
+
+        <div class="card">
+            <h3>Education</h3>
+            <p><b>Bachelor's Program</b> – Pandit Deendayal Energy University (2022–2026)</p>
+            <p>Current CGPA: 8.5/10</p>
+        </div>
+
+        <div class="card">
+            <h3>Work Experience</h3>
+            <ul>
+                <li><b>Communication Volunteer – Outreach Program</b> (2024–Present)</li>
+                <li><b>Research Intern – Energy Innovation Cell</b> (Summer 2024)</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Technical Skills</h3>
+            <span class="skill-tag">MS Office</span>
+            <span class="skill-tag">Canva</span>
+            <span class="skill-tag">Photoshop</span>
+            <span class="skill-tag">C Programming</span>
+            <span class="skill-tag">Java</span>
+        </div>
+
+        <div class="card">
+            <h3>Soft Skills</h3>
+            <span class="skill-tag">Leadership</span>
+            <span class="skill-tag">Teamwork</span>
+            <span class="skill-tag">Communication</span>
+            <span class="skill-tag">Creativity</span>
+        </div>
+    </section>
+
+    <!-- Interdisciplinary Projects -->
+    <section id="projects">
+        <h2>Interdisciplinary Projects</h2>
+
+        <div class="project-card">
+            <h3>1. Sustainable Campus Communication Initiative</h3>
+            <p><b>Objective:</b> Promote sustainability awareness among students using digital media.</p>
+            <p><b>Methodology:</b> Surveys, content design, feedback loops.</p>
+            <p><b>Outcome:</b> 30% increase in student participation.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>2. Digital Storytelling for Rural Energy Awareness</h3>
+            <p><b>Objective:</b> Simplify renewable energy concepts for rural communities.</p>
+            <p><b>Outcome:</b> Created short educational videos viewed by 500+ people.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>3. AI-Assisted Writing Support System</h3>
+            <p><b>Objective:</b> Help students improve academic writing quality.</p>
+            <p><b>Contribution:</b> Content models, proofreading logic, user interface design.</p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Advanced Skill Development & Mastery</h2>
+
+        <div class="card"><h3>Technical Communication</h3><p>Advanced</p></div>
+        <div class="card"><h3>Data Visualization</h3><p>Intermediate</p></div>
+        <div class="card"><h3>Leadership & Team Management</h3><p>Advanced</p></div>
+        <div class="card"><h3>Creative Content Design</h3><p>Expert</p></div>
+    </section>
+
+    <!-- Global Awareness & Ethics -->
+    <section id="ethics">
+        <h2>Global Awareness & Ethical Considerations</h2>
+        <div class="card">
+            <h3>Ethical Case Study</h3>
+            <p>
+                While designing a digital communication campaign, privacy issues emerged regarding user data.  
+                I analyzed ethical implications and ensured compliance with responsible data usage norms.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Global Perspective</h3>
+            <p>
+                Sustainability, digital inclusion, and ethical AI form the core foundation of my work. I believe that
+                technology should benefit society without causing harm.
+            </p>
+        </div>
+    </section>
+
+    <!-- Future Goals -->
+    <section id="future">
+        <h2>Future Aspirations & Self-Assessment</h2>
+
+        <div class="card">
+            <h3>Career Goals</h3>
+            <ul>
+                <li>Become a skilled communicator and project lead.</li>
+                <li>Build creative digital solutions for education and outreach.</li>
+                <li>Work in interdisciplinary domains combining technology & communication.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>SWOT Analysis</h3>
+            <ul>
+                <li><b>Strengths:</b> Creativity, communication, leadership.</li>
+                <li><b>Weaknesses:</b> Perfectionism, time management.</li>
+                <li><b>Opportunities:</b> Growing digital innovation field.</li>
+                <li><b>Threats:</b> Fast-changing technology landscape.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Conclusion</h3>
+            <p>
+                This portfolio represents my journey, growth, and aspirations as a student of PDEU.  
+                I remain committed to lifelong learning, ethical thinking, and meaningful contribution to society.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Juhi Patel | Pandit Deendayal Energy University</p>
+    </footer>
+
+</body>
+</html>
